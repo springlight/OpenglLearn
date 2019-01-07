@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{7B23DD22-088F-4C85-9DED-2F9885E8D52F}</ProjectGuid>
     <RootNamespace>Color</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -70,8 +70,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Work\study\OpenglLearn\clfw\Include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Work\study\OpenglLearn\clfw\Libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>F:\openglstudy\OpenglLearn\clfw\Include;C:\Work\study\OpenglLearn\clfw\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>F:\openglstudy\OpenglLearn\clfw\Libs;C:\Work\study\OpenglLearn\clfw\Libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -128,6 +128,7 @@
     <None Include="ColorFragmentShader.fs" />
     <None Include="ColorVertexShader.vs" />
     <None Include="LightColorFragment.fs" />
+    <None Include="LightColorVertexShader.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -26,5 +26,6 @@
     <None Include="ColorVertexShader.vs" />
     <None Include="ColorFragmentShader.fs" />
     <None Include="LightColorFragment.fs" />
+    <None Include="LightColorVertexShader.vs" />
   </ItemGroup>
 </Project>
