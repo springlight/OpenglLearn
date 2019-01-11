@@ -18,7 +18,7 @@
     <ClCompile Include="..\..\..\clfw\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Color.cpp">
+    <ClCompile Include="Light.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
