@@ -127,6 +127,7 @@
     <None Include="lighting_maps.vs" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\clfw\glad.c" />
     <ClCompile Include="lighting_maps_diffuse.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

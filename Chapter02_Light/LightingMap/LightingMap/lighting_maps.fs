@@ -2,7 +2,9 @@
 
 struct Material{
 	sampler2D diffuse;
-	vec3 specular;
+	//vec3 specular;
+	sampler2D emission;
+	sampler2D specular;
 	float shininess;
 };
 
@@ -11,9 +13,9 @@ struct Light{
 	vec3 ambient;
 	vec3 diffuse;
 	vec3 specular;
-}
+};
 
-out FragColor;
+out vec4 FragColor;
 in vec3 FragPos;
 in vec3 Normal;
 in vec2 TexCoords;
@@ -34,8 +36,11 @@ void main(){
 	vec3 viewDir = normalize(viewPos - FragPos);
 	vec3 reflectDir = reflect(-lightDir,norm);
 	float spec = pow(max(dot(viewDir,reflectDir),0.0),material.shininess);
-	vec3 specular = light.specular *(spec * material.specular);
+
+	vec3 specular = light.specular * spec *texture(material.specular,TexCoords).rgb;
+	    //vec3 specular = light.specular * spec * (vec3(1.0) - vec3(texture(material.specular, TexCoords))); // here we inverse the sampled specular color. Black becomes white and white becomes black.
 	
-	vec3 result = ambient + diffuse + specular;
+	 vec3 emission = texture(material.emission, TexCoords).rgb;
+	vec3 result = ambient + diffuse + specular + emission;
 	FragColor = vec4(result,1.0f);
 }

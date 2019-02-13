@@ -1,0 +1,10 @@
+﻿  lighting_maps_diffuse.cpp
+c:\work\study\opengllearn\chapter02_light\lightingmap\lightingmap\lighting_maps_diffuse.cpp(150): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\work\study\opengllearn\chapter02_light\lightingmap\lightingmap\lighting_maps_diffuse.cpp(280): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\work\study\opengllearn\chapter02_light\lightingmap\lightingmap\lighting_maps_diffuse.cpp(281): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\work\study\opengllearn\chapter02_light\lightingmap\lightingmap\lighting_maps_diffuse.cpp(285): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\work\study\opengllearn\chapter02_light\lightingmap\lightingmap\lighting_maps_diffuse.cpp(286): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\work\study\opengllearn\chapter02_light\lightingmap\lightingmap\lighting_maps_diffuse.cpp(288): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\work\study\opengllearn\chapter02_light\lightingmap\lightingmap\lighting_maps_diffuse.cpp(289): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\work\study\opengllearn\chapter02_light\lightingmap\lightingmap\lighting_maps_diffuse.cpp(298): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  LightingMap.vcxproj -> C:\Work\study\OpenglLearn\Chapter02_Light\LightingMap\Debug\LightingMap.exe
